@@ -28,3 +28,4 @@ def setleds(x):
         else:
             pass
         i += 1
+        print(i)
