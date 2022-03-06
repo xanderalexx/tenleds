@@ -1,6 +1,7 @@
 import RPi.GPIO as g
 import time
-import config.config as config
+if __name__ != '__main__':
+    import tenleds.config.config as config
 
 led1 = config.led1
 led2 = config.led2
